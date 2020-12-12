@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*header style start */
+/* HEADER STYLE START */
 
 .header {
     padding: 20px;
@@ -26,8 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-/* changed header div to header nav */
-.header nav {
+.header nav { /* changed header div to header nav */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,11 +38,11 @@ body {
     list-style-type: none;
 }
 
-.header nav ul li {
+.header nav ul li { /* end change */
     display: inline-block;
     margin-left: 25px;
 }
-/* end change */
+
 
 a {
     color: #ffffff;
@@ -55,7 +54,7 @@ p {
 }
 
 .hero {
-    height: 400px; /* made picture smaller -- ??did not help load faster?? */
+    height: 800px;
     margin: 25px 0 25px 0;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -63,7 +62,7 @@ p {
     position: relative;
 }
 
-/* header style end */
+/* HEADER STYLE END */
 
 .float-left {
     float: left;
@@ -75,73 +74,13 @@ p {
     margin-left: 25px;
 }
 
-/* 3 wide boxes style start */
+/* CONTENT STYLE START */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -173,18 +112,48 @@ p {
     border: 3px solid black /* added border */
 }
 
-.content img { /* removed individual img tags and made a img max-height for all imagines in the section */
+.content img { /* condensed img style for whole section */
     max-height: 200px;
 } 
 
-.content h2 { /* once again removed individual tags and make one for all headers in section */
+.content h2 { /* condensed style for h2 for whole section */
     margin-bottom: 20px;
-    font-size: 36px;
-} 
+    font-size: 32px;
+}
 
-/*3 wide boxes style end */
+/* CONTENT STYLE END */
 
-/* footer style start */
+/* BENEFITS STYLE START */
+
+.benefits { /* condensed styling into one style for whole section */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb; /* changed color to match content box color */
+    margin-bottom: 32px;
+    color: #ffffff;
+    border: 3px black solid;
+}
+
+.benefits h3 { /* condensed styling for h3 into one for whole section */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img { /* condensed styling for img into one for whole section */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* BENEFITS STYLE END */
+
+/* FOOTER STYLE START */
+
 .footer {
     padding: 30px;
     clear: both;
@@ -197,4 +166,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-/* footer style end */
+/* FOOTER STYLE END */
