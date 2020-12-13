@@ -1,20 +1,30 @@
-# 01 HTML CSS Git: Code Refactor
+## Changes made to update code
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+* Updated semantic HTML elements - changed div's to headers/section/article/aside based on where they were/what they were doing in the code.
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+* Updated CSS file to match semantic HTML elements that were changed
 
-> Always leave the code you are editing a little cleaner than you found it.
+* Reviewed the structure of the HTML to make sure it follows a logical structure. 
 
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+* Added HTML comments to make navigation of the doctument easier.
 
-## User Story
+* Added alt tags to pictures.
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+* Added missing id element to "search-engine-optimization" section so navigation bar would work correctly.
+
+* Changed footer h3 into h4 to follow sequential order.
+
+* Changed title of website to "Horiseon Social Media Management."
+
+* Condensed reaccuring CSS code to remove repeating code and added comments to make reviewing document.
+
+* Added tab/focus elements to main view points to make accessibilty using only keyboard easier. 
+
+* Added "< /br >" element to "benefits" section in HTML doc to keep same styling after condensing CSS code in CSS doc.
+
+* Added CSS to footer to keep same style branding as header
+
+* Added borders to each section
 
 ## Acceptance Criteria
 

@@ -135,7 +135,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb; /* changed color to match content box color */
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; /* added margin-bottom and color to benefits to removed unnessesary code */
     border: 3px black solid;
 }
 
